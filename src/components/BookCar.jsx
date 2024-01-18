@@ -123,7 +123,7 @@ function BookCar() {
     //   return false;
     // }
 
-    await fetch("http://localhost:5073/bookings", {
+    await fetch("https://uber-ola-server.vercel.app/bookings", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
