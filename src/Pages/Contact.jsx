@@ -26,7 +26,7 @@ function Contact() {
       return false;
     }
 
-    await fetch("http://localhost:5073/contact", {
+    await fetch("https://uber-ola-server.vercel.app/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
