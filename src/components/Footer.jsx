@@ -19,7 +19,7 @@ function Footer() {
       return false;
     }
 
-    await fetch("http://localhost:5073/newsletter", {
+    await fetch("https://uber-ola-server.vercel.app/newsletter", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
